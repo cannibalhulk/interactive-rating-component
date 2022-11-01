@@ -46,7 +46,7 @@ li{
     
 }
 
-li #btn{
+li .btn{
     cursor: pointer;
     border: none;
     width: 45px;
@@ -56,12 +56,12 @@ li #btn{
     color: hsl(0, 0%, 100%);
 }
 
-li #btn:hover{
+li .btn:hover{
     background-color: hsl(25, 97%, 53%);
     transition: .4s;
 }
 
-li #btn:focus{
+li .btn:focus{
     background-color: hsl(217, 12%, 63%);
 }
 
